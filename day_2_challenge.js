@@ -1,13 +1,23 @@
 // day 2 challenge 1
 
-console.log("------ Challenge # 1 -----")
+// console.log("------ Challenge # 1 -----")
 
-let numberPrinter = input => {
-    for (let i = 1; i <= input; i++){
-        console.log("Iteration #", i);
-    }
-}
-numberPrinter(10);
+// let numberPrinter = (input) => {
+//     if(input > 0) {
+//     for (let i = -1; i <= input; i++){
+//         console.log("Iteration #", i);
+//     }
+//     if(input < 0 ){
+//         for (let i = -1; i >= input; i--){
+//             console.log(i);
+//         }
+//     }
+//     if(input === 0) {
+//         console.log('not very funny')
+//     }
+//     }
+// }
+// numberPrinter(0);
 
 console.log("------ Challenge # 2 ------")
 
@@ -15,7 +25,7 @@ console.log("------ Challenge # 2 ------")
 
 let three = 3;
 let five = 5;
-let fifteen =15;
+let fifteen = 15;
 
 let fizzBuzz = input => {
     for (let i = 1; i <= input; i++){
